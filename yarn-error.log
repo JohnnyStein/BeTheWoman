@@ -1,0 +1,53 @@
+Arguments: 
+  /home/gitpod/.nvm/versions/node/v12.19.0/bin/node /home/gitpod/.nvm/versions/node/v12.19.0/bin/yarn add axios reac-router-dom react-loadingg dotenv @material-ui/core @material-ui/icons
+
+PATH: 
+  /home/gitpod/.nvm/versions/node/v12.19.0/bin:/home/gitpod/.cargo/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.pyenv/shims:/workspace/.cargo/bin:/workspace/.pip-modules/bin:/workspace/.rvm/bin:/home/gitpod/.cargo/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/home/gitpod/.cargo/bin:/home/gitpod/.rvm/gems/ruby-2.6.6/bin:/home/gitpod/.rvm/gems/ruby-2.6.6@global/bin:/home/gitpod/.rvm/rubies/ruby-2.6.6/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.pyenv/shims:/workspace/.cargo/bin:/workspace/.pip-modules/bin:/workspace/.rvm/bin:/home/gitpod/.pyenv/bin:/home/gitpod/.pyenv/shims:/workspace/go/bin:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:/home/gitpod/.nvm/versions/node/v12.19.0/bin:/home/gitpod/.rvm/bin:/home/gitpod/.rvm/bin:/home/gitpod/.rvm/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/reac-router-dom: Not found
+      at Request.params.callback [as _callback] (/home/gitpod/.nvm/versions/node/v12.19.0/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/home/gitpod/.nvm/versions/node/v12.19.0/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/home/gitpod/.nvm/versions/node/v12.19.0/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/home/gitpod/.nvm/versions/node/v12.19.0/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1223:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "react",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "devDependencies": {
+      "react-scripts": "latest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
