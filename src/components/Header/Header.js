@@ -1,12 +1,13 @@
 import React from 'react';
 
 import {
-    Header
-} from 'styled-components';
+    Menu
+} from './styles';
 
 export default function Header(){
     return(
-        <Header>
-        </Header>
+        <Menu>
+            <h1>Menu</h1>
+        </Menu>
     );
 }
