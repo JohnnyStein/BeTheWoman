@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Switch } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
-import './style.css';
+import './global/index.css';
 import Header from './components/Header/Header';
 import Routes from './routes';
 
