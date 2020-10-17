@@ -138,3 +138,207 @@ export const FirstLanding = styled.section`
          }
     }
 `;
+
+export const SecondLanding = styled.section`
+    width: 100%;
+    height: 100%;
+    margin-top:60px;
+    justify-content: space-between;
+
+    #firstSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-itens: space-between;
+        align-content: space-between;
+    }
+
+    #firstSection h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 700;
+        font-size: clamp(1.3rem, 1.4rem + 1vw, 2rem);
+        display: flex;
+        align-items: center;
+        color: #F50057;
+
+        text-align: right;
+
+        margin-left: 30%;
+    }
+
+    #secondSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-itens: space-between;
+        align-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    #secondSection h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 700;
+        font-size: clamp(1.3rem, 1.4rem + 1vw, 2rem);
+        display: flex;
+        align-items: center;
+        color: #F50057;
+
+        text-align: left;
+
+        margin-right: 35%;
+    }
+
+    @media(max-width: 780px) {
+        height: 100vh;
+        margin-top: 5px;
+        img {
+            width: 230px
+        }
+
+        #firstSection {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #firstSection h1 {
+            margin: 0px;
+            margin-bottom: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        #secondSection {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #secondSection img {
+            margin-left: 45px;
+        }
+
+        #secondSection h1 {
+            margin: 0px;
+            margin-bottom: 10px;
+            text-align: center;
+            margin-top: 50px;
+            font-size: 20px;
+        }
+    }
+    @media(max-width: 500px){
+        padding: 20px;
+    }
+`;
+
+export const ThirdLanding = styled.section`
+    width: 100%;
+    height: 280px;
+
+    display: flex;
+    justify-content: center;
+
+    background: #F50057;
+
+    h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 39px;
+        display: flex;
+        align-items: center;
+        color: #FFF;
+
+        text-align: center;
+    }
+
+    @media(max-width: 780px) {
+        height: 150px;
+        margin-top: 150px;
+
+        h1 {
+            font-size: 20px;
+        }
+    }
+`;
+
+export const FourthLanding = styled.section`
+    width: 100%;
+    height: 100%;
+    margin-top:60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+
+    #textWithButton #linkContainer {
+        background: #3F3E4A;
+        width: 100px;
+        height: 70px;
+        border-radius: 12px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 90px;
+    }
+
+    #textWithButton img {
+        width: 30px;
+    }
+
+    #textWithButton h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        display: flex;
+        align-items: center;
+        color: #F50057;
+
+        text-align: left;
+    }
+
+    #woman-with-phone {
+        width: 546px;
+        height: 665px;
+    }
+    @media(max-width: 780px) {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top: -100px;
+        padding: 0;
+        padding-bottom: 30px;
+
+        #textWithButton {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #textWithButton h1 {
+            font-size: 27px;
+
+            text-align: center;
+        }
+
+        #textWithButton #linkContainer {
+            margin-top: 40px;
+        }
+
+        #woman-with-phone {
+            width: 240px;
+
+            margin-bottom: -100px;
+        }
+    }
+`;
