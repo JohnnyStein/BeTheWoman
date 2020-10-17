@@ -10,7 +10,7 @@ import Landing from './pages/Landing/Landing';
 export default class App extends Component {
     render() {
         const acess = localStorage.getItem('@welcome-bewoman/acess');        
-        if (acess == 'false') {
+        if (acess !== 'false') {
             return (
                 <BrowserRouter>
                     <Header />
