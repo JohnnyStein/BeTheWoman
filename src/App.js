@@ -9,10 +9,6 @@ import Landing from './pages/Landing/Landing';
 
 export default class App extends Component {
     render() {
-        return(
-            <Landing/>
-        );
-        /*
         const acess = localStorage.getItem('@welcome-bewoman/acess');        
         if (acess == 'false') {
             return (
@@ -26,6 +22,6 @@ export default class App extends Component {
             return(
                 <Landing/>
             )
-        }*/
+        }
     }
 }
