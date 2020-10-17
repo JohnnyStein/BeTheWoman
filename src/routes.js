@@ -9,7 +9,6 @@ export default function Routes(){
         <Switch>
             <Route path='/' component={Main} exact></Route>
             <Route path='/presentation' component={Landing} exact></Route>
-
         </Switch>
     );
 }
