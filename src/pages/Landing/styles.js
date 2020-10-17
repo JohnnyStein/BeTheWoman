@@ -19,33 +19,7 @@ export const FirstLanding = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    a:nth-child(3n){
-        margin: 20px 0px;
-        padding: 10px 20px;
-        font-family: Ubuntu;
-        font-size: 16px;
-        font-weight: 600;
-        text-decoration: none;
-        color: white;
-        width: 100%;
-        max-width: 150px;
-        background: #2F2E41;
-        border-radius: 10px;
-        transition: all 0.3s;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        border: 2px solid transparent;
-        img{
-            width: 30px;
-        }
-        :hover{
-            background: #3F3E4A;
-        }
-        :focus{
-            border: 2px solid white;
-        }
-    }
+
     section{
         display: flex;
         justify-content: space-between;
@@ -91,13 +65,36 @@ export const FirstLanding = styled.section`
         align-items: center;
         color: white;
     }
-    main{
+
+    a:nth-child(3n){
+        margin: 20px 0px;
+        padding: 10px 20px;
+        font-family: Ubuntu, sans-serif;
+        letter-spacing: 1.3px;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+        width: 100%;
+        max-width: 150px;
+        background: #2F2E41;
+        border-radius: 10px;
+        transition: all 0.3s;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 20px 0px;
-        
+        align-items: center;
+        justify-content: space-between;
+        border: 2px solid transparent;
+        img{
+            width: 30px;
+        }
+        :hover{
+            background: #3F3E4A;
+        }
+        :focus{
+            border: 2px solid white;
+        }
     }
+
     @media(max-width: 780px){
         background-image: none;
         align-items: center;
