@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import { BrowserRouter } from 'react-router-dom';
 
@@ -6,11 +6,22 @@ import './global/index.css';
 import Header from './components/Header/Header';
 import Routes from './routes';
 
-export default function App() {
-  return (
-    <BrowserRouter>
-        <Header/>
-        <Routes/>
-    </BrowserRouter>
-  );
+export default class App extends Component {
+    render() {
+        const acess = localStorage.getItem('@welcome-bewoman/acess');        
+        if (acess == 'false') {
+            return (
+                <BrowserRouter>
+                    <Header />
+                    <Routes />
+                </BrowserRouter>
+            );
+        } else {
+            localStorage.setItem('@welcome-bewoman/acess', false);
+            return(
+                <Landing/>
+            )
+        }
+
+    }
 }
