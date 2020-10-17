@@ -245,7 +245,7 @@ export const FourthLanding = styled.section`
             text-decoration: none;
             color: white;
             width: 100%;
-            max-width: 150px;
+            max-width: 90px;
             background: #2F2E41;
             border-radius: 10px;
             cursor: pointer;
