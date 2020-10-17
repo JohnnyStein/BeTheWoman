@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Archivo&family=Ubuntu&display=swap');
+@import url('./animation.css');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+

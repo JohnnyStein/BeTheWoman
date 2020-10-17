@@ -5,9 +5,14 @@ import { BrowserRouter } from 'react-router-dom';
 import './global/index.css';
 import Header from './components/Header/Header';
 import Routes from './routes';
+import Landing from './pages/Landing/Landing';
 
 export default class App extends Component {
     render() {
+        return(
+            <Landing/>
+        );
+        /*
         const acess = localStorage.getItem('@welcome-bewoman/acess');        
         if (acess == 'false') {
             return (
@@ -21,7 +26,6 @@ export default class App extends Component {
             return(
                 <Landing/>
             )
-        }
-
+        }*/
     }
 }
