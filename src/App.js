@@ -19,8 +19,10 @@ export default class App extends Component {
             );
         } else {
             localStorage.setItem('@welcome-bewoman/acess', false);
-            return(
-                <Landing/>
+            return(  
+                <BrowserRouter>
+                    <Landing/>
+                </BrowserRouter>
             )
         }
     }
