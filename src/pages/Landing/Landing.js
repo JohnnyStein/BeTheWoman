@@ -40,10 +40,10 @@ export default class Landing extends Component {
                         </div>
                     </section>
                     <h1>Tudo que vc<br /> precisa para se sentir<br /> mulher</h1>
-                    <Link to='/'>
+                    <a href='/'>
                         Visitar
                         <img src={inlink}></img>
-                    </Link>
+                    </a>
                 </FirstLanding>
                 <SecondLanding>
                     <div>
