@@ -1,14 +1,22 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
+import Feed from '../../components/Feed/Feed';
+import Sidebar from '../../components/SideBar/Sidebar';
 
 import {
     MainContainer
 } from './styles';
 
-export default class Main extends Component{
-    render(){
-        return(
+export default class Main extends Component {
+    render() {
+        return (
+
             <MainContainer>
-                <h1>Main Page Exemplo</h1>
+                <main className="main-content">
+                    <Feed />
+                </main>
+                <aside className="side-bar">
+                    <Sidebar />
+                </aside>
             </MainContainer>
         );
     }
