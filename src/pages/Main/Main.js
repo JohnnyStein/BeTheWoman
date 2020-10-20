@@ -1,15 +1,37 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
+
+import CardFeed from '../../components/CardFeed/CardFeed';
 
 import {
-    MainContainer
+    MainContainer,
+    Grid
 } from './styles';
+import avatar from '../../global/assets/avatar.png';
+import Sidebar from '../../components/SideBar/Sidebar';
 
-export default class Main extends Component{
-    render(){
-        return(
+export default function Main() {
+    const data = [
+        {
+            title: 'Feminismo na educação infantil',
+            author: 'Mina Sundwall',
+            avatar,
+            likes: 34,
+            description: 'Feminismo é um conjunto de movimentos políticos, sociais, ideologias e filosofias que têm como objetivo comum: direitos equânimes e uma vivência humana por meio do empoderamento feminino.',
+        },
+        
+    ]
+    return (
+        <Grid>
             <MainContainer>
-                <h1>Main Page Exemplo</h1>
+
+                {
+                    data.map(comment => (
+                        <CardFeed key={comment.title} data={comment}></CardFeed>
+                    ))
+                }
             </MainContainer>
-        );
-    }
+            <Sidebar></Sidebar>
+        </Grid>
+    );
+
 }
