@@ -16,12 +16,12 @@ export const MainContainer = styled.div`
 export const Grid = styled.div`
     display: flex;
     div:first-child{
-        width: 80vw;
+        width: 75vw;
         @media(max-width: 700px){
             width: 100vw;
         }
     }
     div:last-child{
-        width: 20vw;
+        width: 25vw;
     }
 `;

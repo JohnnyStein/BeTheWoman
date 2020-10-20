@@ -26,7 +26,7 @@ export default function Main() {
 
                 {
                     data.map(comment => (
-                        <CardFeed data={comment}></CardFeed>
+                        <CardFeed key={comment.title} data={comment}></CardFeed>
                     ))
                 }
             </MainContainer>

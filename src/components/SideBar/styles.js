@@ -5,9 +5,9 @@ export const SidebarComponent = styled.div`
     flex-direction: column;
     justify-content: space-between;
     background: #FFDBE6;
-    grid-area: b;
-    padding: 70px 10px 10px 10px;
+    padding: 70px 20px 10px 20px;
     position: fixed;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     width: 100%;
     top: 0;
     right: 0;
@@ -16,46 +16,61 @@ export const SidebarComponent = styled.div`
     @media(max-width: 700px){
         display: none;
     }
+    hr{
+        width: 100%;
+        border: 1px;
+        background: red;
+    }
     header{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        h1 {
-            font-family: Noto Sans;
-            text-align: center;
+        align-items: flex-end;
+        span {
+            font-family: Poppins;
+            font-weight: 600;
+            font-size: 20px;
+            padding: 5px;
+            line-height: 35px;
+            text-align: left;
             color: #F50057;
-            font-weight: 700;
+            font-weight: 600;
         }
-        div:last-child{
-            display: flex;
-            input{
-                width: 90%;
-                height: 55px;
-                background: #FEF4F4;
-
-                border: none;
-                border-radius: 10px;
-
-                padding: 20px;
-                font-size: 16px;
-                font-weight: 700;
-                :hover {
-                    padding: 18px;
-                    border: 2px solid #F50057;
-                    background: #FEF4F4;
-                }
+        p{
+            font-family: Noto Sans, sans serif;
+            font-weight: 500;
+            font-size: 17px;
+            padding: 5px 10px;   
+        }
+        input{
+            width: 80%;
+            max-width: 370px;
+            margin: 30px auto;
+            padding: 10px 13px;
+            border-radius: 5px;
+            border: 2px solid transparent;
+            font-family: Noto Sans;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            outline: none;
+            color: #666666;
+            transition: all 0.4s;
+            :focus{
+                border: 2px solid #F50057;
             }
         }
     }
-    footer {
+    main {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 20px;
+        align-items: flex-end;
+        padding: 10px;
 
         h1 {
             font-family: Ubuntu;
-            font-size: 19px;
+            font-size: 18px;
             font-weight: 700;
             color: #F50057;
     
@@ -63,15 +78,18 @@ export const SidebarComponent = styled.div`
         }
         div{
             display: flex;
-            align-items: center;
-            margin-left: 20px;
-            margin-top: 30px;
-            p {
-                margin-left: 10px;
-        
+            flex-direction: column;
+            align-items: flex-end;
+            margin-top: 20px;
+            a {       
                 font-family: Ubuntu;
-                font-weight: 700;
+                font-weight: 500;
+                text-decoration: none;
                 font-size: 16px;
+                color: #666666;
+                :hover{
+                    text-decoration: underline;
+                }
             }
         }
     }

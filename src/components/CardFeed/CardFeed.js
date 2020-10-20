@@ -2,6 +2,7 @@ import React from 'react';
 import { CardContainer } from './styles';
 
 import favorite from '../../global/assets/favorite.svg';
+import { IconButton } from '@material-ui/core';
 
 export default function CardFeed(props) {
     const { title, author, avatar, description, likes } = props.data;
@@ -20,9 +21,11 @@ export default function CardFeed(props) {
                         <p>{author}</p>
                     </a>
                 </div>
-                <a href='#'>
-                    <img src={favorite} title={likes}></img>
-                </a>
+                <IconButton>
+                    <a href='#'>
+                        <img src={favorite} title={likes}></img>
+                    </a>
+                </IconButton>
             </article>
         </CardContainer>
     );
