@@ -8,11 +8,18 @@ export const MainContainer = styled.div`
     overflow-y: auto;
     background: #f4f4f4;
     overflow-x: hidden;
+    @media(max-width: 700px){
+        padding-top: 20px;
+    }
+    
 `;
 export const Grid = styled.div`
     display: flex;
     div:first-child{
         width: 80vw;
+        @media(max-width: 700px){
+            width: 100vw;
+        }
     }
     div:last-child{
         width: 20vw;

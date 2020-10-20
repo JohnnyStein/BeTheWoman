@@ -13,6 +13,9 @@ export const SidebarComponent = styled.div`
     right: 0;
     height: 100vh;
     z-index: 1;
+    @media(max-width: 700px){
+        display: none;
+    }
     header{
         display: flex;
         flex-direction: column;

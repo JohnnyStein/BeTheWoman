@@ -10,10 +10,20 @@ export const CardContainer = styled.section`
     border: 1px solid transparent;
     transition: all 0.4s;
     margin: 0px auto;
+    
     section{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        @media(max-width: 425px){
+            align-items: center;
+            h1{
+                text-align: center;
+            }
+            p{
+                text-align: justify;
+            }
+        }
         a{
             text-decoration: none;
             h1{

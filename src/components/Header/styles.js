@@ -9,6 +9,15 @@ export const Menu = styled.div`
     background: #F00F53;
     position: fixed;
     z-index: 9;
+    @media(max-width: 700px){
+        bottom:  0;
+    }
+    div:first-child{
+        display: none;
+        @media(max-width: 700px){
+            display: block;
+        }
+    }
     section {
         display: flex;
         align-items: center;
@@ -18,6 +27,9 @@ export const Menu = styled.div`
             cursor: pointer;
             :hover{
                 opacity: 0.8;
+            }
+            @media(max-width: 700px){
+                display: none;
             }
         }
         span {
