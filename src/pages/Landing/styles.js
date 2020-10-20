@@ -51,10 +51,10 @@ export const FirstLanding = styled.section`
                 img{
                     width: 25px;
                 }
-                margin-right: 15px;
-            }
-            a:hover{
-                animation: graps 0.7s;
+                margin-right: 20px;
+                :hover{
+                    animation: graps 0.7s;
+                }
             }
         }
     }
