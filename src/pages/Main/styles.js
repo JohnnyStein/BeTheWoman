@@ -3,13 +3,18 @@ import styled from 'styled-components';
 export const MainContainer = styled.div`
     display: flex;
     flex-direction: column;
+    
     height: 100vh;
     padding-top: 70px;
     overflow-y: auto;
-    background: #f4f4f4;
+    background-color: #f4f4f4;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/303/914/545/montanhas-black-and-white-mountain-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow-x: hidden;
     @media(max-width: 700px){
         padding-top: 20px;
+        padding-bottom: 70px;
     }
     
 `;

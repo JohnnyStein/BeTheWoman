@@ -7,7 +7,6 @@ export const SidebarComponent = styled.div`
     background: #FFDBE6;
     padding: 70px 20px 10px 20px;
     position: fixed;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     width: 100%;
     top: 0;
     right: 0;

@@ -15,8 +15,25 @@ export default function Main() {
             title: 'Feminismo na educação infantil',
             author: 'Mina Sundwall',
             avatar,
+            data: new Date().toLocaleDateString(),
             likes: 34,
-            description: 'Feminismo é um conjunto de movimentos políticos, sociais, ideologias e filosofias que têm como objetivo comum: direitos equânimes e uma vivência humana por meio do empoderamento feminino.',
+            description: 'Feminismo é um conjunto de movimentos políticos, sociais, ideologias e filosofias que têm como objetivo comum.',
+        },
+        {
+            title: 'Feminismo na educação infantil',
+            author: 'Mina Sundwall',
+            avatar,
+            data: new Date().toLocaleDateString(),
+            likes: 34,
+            description: 'Feminismo é um conjunto de movimentos políticos, sociais, ideologias e filosofias que têm como objetivo comum.',
+        },
+        {
+            title: 'Feminismo na educação infantil',
+            author: 'Mina Sundwall',
+            avatar,
+            data: new Date().toLocaleDateString(),
+            likes: 34,
+            description: 'Feminismo é um conjunto de movimentos políticos, sociais, ideologias e filosofias que têm como objetivo comum.',
         },
         
     ]
