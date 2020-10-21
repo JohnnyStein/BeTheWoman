@@ -4,8 +4,10 @@ import { CardContainer } from './styles';
 import favorite from '../../global/assets/favorite.svg';
 import { IconButton } from '@material-ui/core';
 
+
 export default function CardFeed(props) {
-    const { title, author, avatar, description, likes } = props.data;
+    const { title, author, avatar, description, likes, data } = props.data;
+    console.log(data);
     return (
         <CardContainer>
             <section>
@@ -18,7 +20,10 @@ export default function CardFeed(props) {
                 <div >
                     <a>
                         <img src={avatar}></img>
-                        <p>{author}</p>
+                        <div>
+                            <p>{author} *</p>
+                            <p>{data}</p>
+                        </div>
                     </a>
                 </div>
                 <IconButton>

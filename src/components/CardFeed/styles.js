@@ -7,10 +7,9 @@ export const CardContainer = styled.section`
     padding: 15px;
     width: 90%;
     max-width: 700px;
-    border: 1px solid transparent;
+    border: 1.4px solid transparent;
     transition: all 0.4s;
-    margin: 0px auto;
-    
+    margin: 20px auto 33px auto;
     section{
         display: flex;
         flex-direction: column;
@@ -19,9 +18,11 @@ export const CardContainer = styled.section`
             align-items: center;
             h1{
                 text-align: center;
+                font-size: 16px;
             }
             p{
                 text-align: justify;
+                font-size: 14px;
             }
         }
         a{
@@ -85,6 +86,6 @@ export const CardContainer = styled.section`
         }
     }
     :hover{
-        border: 1px solid #F00F53;
+        border: 1.4px solid #F00F53;
     }
 `;
