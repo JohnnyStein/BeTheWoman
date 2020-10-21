@@ -21,7 +21,7 @@ export default function CardFeed(props) {
                     <a>
                         <img src={avatar}></img>
                         <div>
-                            <p>{author} *</p>
+                            <p>{author}</p>
                             <p>{data}</p>
                         </div>
                     </a>

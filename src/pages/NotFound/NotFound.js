@@ -10,10 +10,7 @@ import { Link } from 'react-router-dom';
 export default function NotFound(){
     return(
         <ContainerFound>
-            <Link href='#'>
-                <img src={faleconosco}></img> 
-                Fale conosco
-            </Link>
+            
         </ContainerFound>
     );
 }

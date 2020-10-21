@@ -59,6 +59,15 @@ export const CardContainer = styled.section`
             transition: all 0.5s;
             
             a{
+                div:last-child{
+                    @media(max-width: 321px){
+                        display: flex;
+                        flex-direction column;
+                        span{
+                            display: none;
+                        }
+                    }
+                }
                 p{
                     font-family: Ubuntu;
                     font-style: normal;
