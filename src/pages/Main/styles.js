@@ -3,12 +3,11 @@ import styled from 'styled-components';
 export const MainContainer = styled.div`
     display: flex;
     flex-direction: column;
-    
+    box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
     height: 100vh;
     padding-top: 70px;
     overflow-y: auto;
-    background-color: #f4f4f4;
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/303/914/545/montanhas-black-and-white-mountain-wallpaper-preview.jpg);
+    background-color: #FFFFFF;
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;

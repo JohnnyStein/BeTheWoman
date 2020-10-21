@@ -5,7 +5,6 @@ import woman from '../../global/assets/womanotify.svg';
 
 export const ContainerNotification = styled.section`
     width: 100%;
-    height: 100vh;
     background-image: url(${woman}) ;
     background-repeat: no-repeat ;
     background-position: left bottom;
@@ -20,7 +19,6 @@ export const ContainerNotification = styled.section`
     main{
         width: 100%;
         max-width: 700px;
-        height: 100vh;
         margin: 0px auto;
         z-index: 11;
         padding: 70px 30px 30px 30px;

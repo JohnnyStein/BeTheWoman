@@ -7,7 +7,7 @@ export const CardContainer = styled.section`
     padding: 15px;
     width: 90%;
     max-width: 700px;
-    border: 1.4px solid transparent;
+    border: 2px solid transparent;
     transition: all 0.4s;
     margin: 20px auto 33px auto;
     section{
@@ -95,6 +95,6 @@ export const CardContainer = styled.section`
         }
     }
     :hover{
-        border: 1.4px solid #F00F53;
+        border: 2px solid #F00F53;
     }
 `;

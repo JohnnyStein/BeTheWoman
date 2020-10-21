@@ -6,13 +6,3 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-@media(min-width: 500px) {
-    ::-webkit-scrollbar {
-        width: 8px;
-    }
-    ::-webkit-scrollbar-thumb {
-        border-radius: 2px;
-        background: #F2F2F2;
-    }
-}
